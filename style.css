@@ -60,7 +60,14 @@ body {
 }
 .offer__main-description {
   display: flex;
-  font-size: 15px;
+  font-size: 0.9em;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 100px;
+}
+.offer__main-description p {
+  width: 42%;
+  padding: 5px;
 }
 .food-menu {
   display: flex;
